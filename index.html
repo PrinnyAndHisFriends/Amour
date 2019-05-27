@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | GameJamCiGA2018</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>  
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/WebGL.json", {onProgress: UnityProgress});
+      alert("操作方法:左玩家AD控制方向，S技能;右玩家←→控制方向，↓技能");
+      alert("技能介绍:左边的女孩按s会换双方爱心颜色，右男按下箭头会双方根据颜色丢仙人球，可以打地图上有颜色的泡泡");
+      alert("其他内容:按钮能打碎对方的碎石头;\n移动的石头路径有随机性;\n多打有闪光的泡泡会加能量能回血;\n共用三点血;\n其他五个道具为剧情道具，意识流脑补故事;\n一方碰到剧情道具后会送到另一方的跑道上，这时另一方拿到才算获得;\n拿到六个剧情道具通关;结局有彩蛋");
+    </script>
+  </head>
+  <body>
+    <div class="webgl-content">
+      <div id="gameContainer" style="width: 1536px; height: 864px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+        <div class="title">GameJamCiGA2018</div>
+      </div>
+    </div>
+  </body>
+</html>
