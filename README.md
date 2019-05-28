@@ -3,13 +3,13 @@
 ## 2018年 Ciga Game Jam 作品
 
 ### 主策划
-砚哥
+Freya
 ### 策划
-耗哥、Prinny 凌霄
+Rattar、Prinny 凌霄
 ### 程序
-耗哥、Prinny 凌霄
+Rattar、Prinny 凌霄
 ### 美术
-YK、砚哥、耗哥
+YK、Freya、Rattar
 
 ## 游戏方法
 ### 操作方法
